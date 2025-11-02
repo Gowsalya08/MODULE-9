@@ -18,10 +18,19 @@ To write a Python program to compute the **transpose** of a matrix using **list 
 ---
 
 ## 💻 PROGRAM:
-ADD CODE HERE
+n=int(input())
+ scl=int(input())
+ l=[]
+ for i in range(n):
+ x=float(input())
+ l.append(x)
+ sq_l=[item*scl for item in l]
+ print(l)
+ print(sq_l)
 
 ## OUTPUT:
+<img width="715" height="335" alt="image" src="https://github.com/user-attachments/assets/96a142e0-066d-43ed-998d-aae4dea3ce01" />
 
 ## RESULT:
-
+Thus the program was executed successfully
 
